@@ -39,6 +39,7 @@
             transform: translateY(-5px);
             box-shadow: 0 1rem 3rem rgba(0,0,0,.175) !important;
         }
+        
     </style>
 </head>
 <body data-bs-spy="scroll" data-bs-target="#main-nav" data-bs-smooth-scroll="true">
@@ -71,50 +72,66 @@
 
 <main>
 
-    <header id="hero-section" class="position-relative">
-        <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
-            
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            
-            <div class="carousel-inner">
-                
-                <div class="carousel-item active carousel-item-hero">
-                    <img src="images/images 6.jpeg" class="d-block w-100" alt="Pont Faidherbe au lever du soleil">
-                </div>
-                
-                <div class="carousel-item carousel-item-hero">
-                    <img src="images/activity_33-384-216-20220303070007.jpg" class="d-block w-100" alt="Architecture coloniale de l'île">
-                </div>
-                
-                <div class="carousel-item carousel-item-hero">
-                    <img src="images/traditional-colorful-senegalese-boat-on-260nw-1388659766.webp" class="d-block w-100" alt="Pirogues colorées sur le fleuve Sénégal">
-                </div>
-                
-            </div>
-
-            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Précédent</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Suivant</span>
-            </button>
-            
+   <header id="hero-section" class="position-relative">
+    <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+        
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         
-        <div class="carousel-caption d-md-block position-absolute hero-caption text-shadow">
-            <div class="hero-content">
-                <h1 class="display-1 fw-bolder text-warning animate__animated animate__fadeInDown">Bienvenue à Saint-Louis du Sénégal</h1>
-                <p class="lead fw-light fs-4 text-white-75 animate__animated animate__fadeInUp animate__delay-1s">Ville historique, culturelle et patrimoniale.</p>
-                <a href="#histoire-section" class="btn btn-warning btn-lg mt-4 shadow-lg fw-bold animate__animated animate__zoomIn animate__delay-2s">Découvrir l'Histoire <i class="fas fa-arrow-down ms-2"></i></a>
+        <div class="carousel-inner">
+            
+            <div class="carousel-item active carousel-item-hero">
+                <img src="images/14924881-pont-faidherbe-bridge-welcome-in-saint-louis-senegal.jpg" class="d-block w-100 " alt="Pont Faidherbe au lever du soleil">
+                
+                <div class="carousel-caption d-md-block hero-caption text-shadow">
+                    <div class="hero-content">
+                        <h1 class="display-1 fw-bolder text-warning">Bienvenue à Saint-Louis du Sénégal</h1>
+                        <p class="lead fw-light fs-4 text-white-75">Ville historique, culturelle et patrimoniale.</p>
+                        <a href="#histoire-section" class="btn btn-warning btn-lg mt-4 shadow-lg fw-bold">Découvrir l'Histoire <i class="fas fa-arrow-down ms-2"></i></a>
+                    </div>
+                </div>
             </div>
+            
+            <div class="carousel-item ">
+                <img src="images/7dac8e37bmaison.jpg" class="d-block w-100" alt="Architecture coloniale de l'île">
+                
+                <div class="carousel-caption d-md-block hero-caption text-shadow">
+                    <div class="hero-content">
+                        <h1 class="display-1 fw-bolder text-warning">Un Patrimoine Mondial UNESCO</h1>
+                        <p class="lead fw-light fs-4 text-white-75">Flânez dans les ruelles chargées d'histoire de l'ancienne capitale.</p>
+                        <a href="#histoire-section" class="btn btn-warning btn-lg mt-4 shadow-lg fw-bold">En savoir plus sur l'UNESCO <i class="fas fa-book-open ms-2"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="carousel-item">
+                <img src="images/466688_QuatreTiers.ori.jpg" class="d-block w-100 h-100" alt="Pirogues colorées sur le fleuve Sénégal">
+                
+                <div class="carousel-caption d-md-block hero-caption text-shadow">
+                    <div class="hero-content">
+                        <h1 class="display-1 fw-bolder text-warning">Entre Fleuve et Océan</h1>
+                        <p class="lead fw-light fs-4 text-white-75">Découvrez la vie vibrante des pêcheurs de Guet-Ndar et la nature environnante.</p>
+                        <a href="#lieux-section" class="btn btn-warning btn-lg mt-4 shadow-lg fw-bold">Voir les Lieux Incontournables <i class="fas fa-map-marker-alt ms-2"></i></a>
+                    </div>
+                </div>
+            </div>
+            
         </div>
-    </header>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Précédent</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Suivant</span>
+        </button>
+        
+    </div>
+</header>
     <section id="histoire-section" class="py-5 bg-light">
     <div class="container">
         <h2 class="display-4 text-center mb-5 fw-bold text-dark">📜 Histoire de l'Île</h2>
@@ -395,8 +412,9 @@
                     <div class="card h-100 shadow-sm border-warning">
                         <img src="images/22.jpeg" class="card-img-top" alt="Guet-Ndar" style="height: 200px; object-fit: cover;">
                         <div class="card-body">
-                            <h5 class="card-title fw-bold text-warning"><i class="fas fa-ship me-2"></i> Guet-NdarLa Rue Blanchot</h5>
-                            <p class="card-text text-secondary">C'est l'une des rues principales de l'île. Elle est célèbre pour ses belles façades coloniales aux balcons en fer forgé et ses couleurs ocres et pastel. C'est l'endroit idéal pour flâner et admirer l'architecture historique.</p>
+                            <h5 class="card-title fw-bold text-warning"><i class="fas fa-ship me-2"></i> UGB</h5>
+                            <p class="card-text text-secondary">🎓 Université Gaston Berger (UGB) : L'Excellence à Saint-Louis
+                                L'Université Gaston Berger (UGB) est la deuxième université publique du Sénégal, établie à Saint-Louis. Créée par la loi en 1990, elle est rapidement devenue un pôle d'excellence académique et un contributeur majeur au développement régional et national.</p>
                         </div>
                         <div class="card-footer bg-white border-0">
                             <a href="#galerie-section" class="btn btn-outline-warning w-100 w-100">Voir la Galerie</a>
